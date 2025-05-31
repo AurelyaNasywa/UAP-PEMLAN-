@@ -10,8 +10,8 @@ public class KalkulatorPabrik {
 
         System.out.println("=============================================");
         System.out.println("Kalkulator Pabrik Cetakan Donat Rumahan");
-        System.out.println("NAMA LENGKAP");
-        System.out.println("NIM");
+        System.out.println("SAFFANA NASYWA AURELYA W.");
+        System.out.println("245150701111010");
         System.out.println("=============================================");
         System.out.println("Donat dengan lubang");
         System.out.println("=============================================");
