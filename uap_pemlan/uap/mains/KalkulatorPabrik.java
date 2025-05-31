@@ -15,6 +15,7 @@ public class KalkulatorPabrik {
         System.out.println("=============================================");
         System.out.println("Donat dengan lubang");
         System.out.println("=============================================");
+        
         System.out.print("Isikan Radius   : ");
         double major = sc.nextDouble();
         System.out.println(major);
@@ -23,6 +24,8 @@ public class KalkulatorPabrik {
         double minor = sc.nextDouble();
         System.out.println(minor);
 
+        System.out.println("=============================================");
+        
         Torus torus = new Torus(major, minor);
         torus.printInfo();
 
@@ -33,6 +36,8 @@ public class KalkulatorPabrik {
         double r = sc.nextDouble();
         System.out.println(r);
 
+        System.out.println("=============================================");
+        
         Sphere sphere = new Sphere(r);
         sphere.printInfo();
         System.out.println("=============================================");
